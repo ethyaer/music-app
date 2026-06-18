@@ -1,0 +1,83 @@
+# Build folders
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# NuGet
+*.nupkg
+packages/
+
+# ASP.NET publish
+publish/
+
+# User secrets / local config
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# Service dependencies
+**/serviceDependencies.local.json
+**/serviceDependencies.local.json.user
+
+# Certificates
+*.pfx
+*.pem
+*.key
+*.crt
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Node modules (na przyszłość)
+node_modules/
+
+# Generated documentation
+_site/
+xrefmap.yml
+
+# DocFX output
+docs/_site/
+
+# Visual Studio cache
+*.cache
+*.pidb
+*.svclog
+
+# Azure
+.publishsettings
